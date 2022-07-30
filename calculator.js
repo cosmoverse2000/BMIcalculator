@@ -40,5 +40,6 @@ App.post("/", function (req, res) {
     res.render("bmiCalculator", { bmi: bmi.toFixed(1), pi: pi.toFixed(1), hwhi: hwhi.toFixed(1), hwhf: hwhf.toFixed(1), bmit: bmit, angle: angle });
 })
 App.listen(process.env.PORT || 3000, () => {
-    console.log("Server Started");
+    console.log("Server Started on heoku");
 });
+
